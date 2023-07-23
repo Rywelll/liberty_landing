@@ -1,0 +1,60 @@
+.section {
+    min-height: 680px;
+    background: #F6F6F6 url('../../image/Subtract.svg') no-repeat -150px -100px;
+
+    .header {
+        max-height: 75px;
+        display: flex;
+        padding: 25px 0 0 150px;
+
+        @media (max-width: 900px) {
+            max-height: 75px;
+            display: flex;
+            padding: 15px 0 0 0;
+            justify-content: center;
+        }
+    }
+
+    .logo {
+        height: 40px;
+
+        @media (max-width: 900px) {
+            margin: 0 auto;
+            height: 40px;
+        }
+    }
+
+    .content {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 890px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #1B1A1A;
+
+        .title {
+            margin-top: 90px;
+            font-size: 32px;
+            font-weight: 900;
+        }
+
+        .subtitle {
+            font-size: 24px;
+        }
+
+        .link {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+}
+
+.footer {
+    padding: 25px 15px 25px 15px;
+    text-align: start;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(27, 26, 26, 0.47);
+}
