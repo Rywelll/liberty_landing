@@ -1,3 +1,14 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #1B1A1A;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .section {
   min-height: 680px;
   background: #F6F6F6 url('../../image/Subtract.svg') no-repeat -150px -100px;
@@ -45,23 +56,21 @@
     justify-content: center;
     max-width: 960px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    color: #1B1A1A;
-    font-size: 20px;
 
     .title {
       margin-top: 90px;
       font-size: 32px;
       font-weight: 900;
     }
+
     .subtitle {
       font-size: 24px;
     }
+
     .btn {
       min-width: 160px;
       height: 46px;
-      padding-left: 25px;
-      padding-right: 25px;
+      padding: 0 25px;
       background: #FDBA2F;
       color: #FFFFFF;
       border-radius: 8px;
@@ -69,8 +78,8 @@
       font-size: 16px;
       text-transform: uppercase;
       font-family: inherit;
-
     }
+
     .context {
       width: 100%;
       margin-top: 25px;
@@ -79,6 +88,7 @@
         font-weight: bold;
         font-size: 24px;
       }
+
       .text_list {
         text-align: start;
 
@@ -87,65 +97,78 @@
         }
       }
     }
+
     .title_liberating_change {
       font-weight: bold;
       font-size: 24px;
       margin: 65px 0 35px 0;
     }
+
     .liberating_change {
       display: flex;
       width: 100%;
       margin-bottom: 15px;
-     justify-content: space-between;
+      justify-content: space-between;
 
       .text_liberating_change {
         width: 512px;
         text-align: start;
+
         .selected_text_liberating_change {
           color: #FB6B1A;
           font-weight: bold;
         }
+
         .text_world_liberating_change {
           text-align: center;
-          padding: 0 80px 0 80px;
+          padding: 0 80px;
           width: 400px;
         }
+
         .subtext_partners_liberating_change {
           margin-bottom: -15px;
         }
       }
+
       .img_liberating_change {
         height: 360px;
-        margin-top: 25px
+        margin-top: 25px;
       }
     }
+
     .title_big {
       margin-top: 15px;
       font-size: 32px;
       font-weight: bold;
     }
+
     .our_works {
       display: flex;
       justify-content: space-between;
       margin-top: 25px;
       width: 100%;
     }
+
     .img_privacy_change {
       margin-top: 5px;
     }
+
     .text_work_process {
       text-align: start;
     }
+
     .product_content {
       width: 100%;
       display: flex;
       justify-content: space-between;
       margin-bottom: 45px;
+
       .product_card {
         width: 304px;
         height: 130px;
         background: #FFFFFF;
         box-shadow: 1px 1px 5px rgba(27, 26, 26, 0.77);
+
         .product_text {
           display: flex;
           align-items: center;
@@ -154,17 +177,11 @@
         }
       }
     }
-
-    .link {
-      text-decoration: none;
-      color: inherit;
-    }
   }
 }
 .footer {
-  padding: 25px 15px 25px 15px;
+  padding: 25px 15px;
   text-align: start;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
   color: rgba(27, 26, 26, 0.47);
 }
